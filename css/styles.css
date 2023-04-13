@@ -1,0 +1,120 @@
+@import url(https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap);
+:root {
+  --link-color: #2196f3;
+  --text-color: #ffffff;
+  --heading-color: #212121;
+  --alternative-color: #2f303a;
+  --text-font-family: "Roboto", sans-serif;
+  --logo-font-family: "Raleway", sans-serif;
+}
+
+.logo {
+  color: var(--heading-color);
+  font-family: var(--logo-font-family);
+  font-weight: 700;
+}
+
+span {
+  color: var(--link-color);
+}
+
+.main-section {
+  text-align: center;
+}
+
+.hero-section {
+  background-color: var(--alternative-color);
+  font-family: var(--text-font-family);
+  font-style: normal;
+  color: var(--text-color);
+  font-weight: 900;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  line-height: 60px;
+}
+
+.btn {
+  font-family: var(--text-font-family);
+  background-color: var(--link-color);
+  color: var(--text-color);
+  font-size: 16px;
+  width: 161px;
+  height: 30px;
+  left: 720px;
+  top: 440px;
+  font-weight: 700;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+}
+body {
+  font-family: var(--text-font-family);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #757575;
+}
+
+ul {
+  list-style-type: none;
+}
+
+h2 {
+  color: #212121;
+  font: "Roboto";
+  font-weight: 700;
+}
+
+h4 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: var(--heading-color);
+}
+
+a {
+  color: var(--heading-color);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--link-color);
+}
+
+footer {
+  background-color: var(--alternative-color);
+  color: var(--text-color);
+  font-family: var(--text-font-family);
+  font-style: normal;
+}
+
+.footer-logo {
+  color: var(--text-color);
+  font-family: var(--logo-font-family);
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+}
+
+.address:focus {
+  color: var(--link-color);
+}
+
+.footer-section {
+  font-family: var(--logo-font-family);
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+
+.first-button {
+  background-color: var(--link-color);
+  cursor: pointer;
+}
+
+button {
+  cursor: pointer;
+}
