@@ -118,3 +118,13 @@ footer {
 button {
   cursor: pointer;
 }
+
+.project-images {
+  width: 370px;
+  height: 294px;
+}
+
+.team-pictures {
+  width: 270px;
+  height: 260px;
+}
